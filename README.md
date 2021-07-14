@@ -45,7 +45,7 @@ The following options are available:
 
 Code example:
 
-`python3 jpg2png /Pokedex /my_pngs`
+`python3 jpg2png Pokedex/ my_pngs/`
 
 If the target folder is omitted, a folder named 'converted' will be created in the current directory
 
