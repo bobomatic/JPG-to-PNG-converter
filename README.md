@@ -5,9 +5,13 @@ Simple jpg to png converter written in Python 3 using Python Image library
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Features](#features)
+* [Examples of Use](#examples-of-use)
+* [Status](#status)
+* [Sources](#sources)
 
 ## General Info
-
+This project is intended for converting image files to portable network graphics suitable for use in web pages.
 
 ## Technologies
 This project is created with
@@ -24,6 +28,8 @@ $ npm start
 ```
 
 ## Features
+* converts all jpg files in a folder to png
+* places them in a destination folder
 
 ### To do:
 * image processing options e.g. grayscale, resize, thumbnail
@@ -34,7 +40,8 @@ Usage: jpg2png [none] source_directory: [str] = ... target_directory: Optional[s
 
 Converted files are placed in the target folder.
 
-There are currently no options available.
+The following options are available:
+* no options available
 
 Code example:
 
@@ -48,4 +55,5 @@ Further development will be required to introduce image processing options
 
 ## Sources
 This project is inspired by Andrei Neagoie Python Zero to Mastery course:
+
 https://www.udemy.com/course/complete-python-developer-zero-to-mastery
